@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+.main-todo{
+  width: 700px;
+  margin: auto;
+  box-shadow: 7px 10px 5px rgb(242 242 242);
+}
+
+#button-addon2{
+  background-color: #b9caec;
+  color: white;
+  border-color: #b9caec;
+}
+
+
+.App-header {
+  background-color: #b9caec;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* font-size: calc(10px + 2vmin); */
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
